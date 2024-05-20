@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74xx1")(type "KiCad")(uri "${KIPRJMOD}/74xx.kicad_sym")(options "")(descr ""))
+  (lib (name "Commodore_Chips")(type "KiCad")(uri "${KIPRJMOD}/Commodore_Chips.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic_Chips")(type "KiCad")(uri "${KIPRJMOD}/Logic_Chips.kicad_sym")(options "")(descr ""))
+)
