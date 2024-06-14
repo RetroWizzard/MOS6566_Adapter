@@ -7170,7 +7170,7 @@
 		(uuid "3426b8ba-f063-43b3-8403-037c8eedc4c0")
 	)
 	(label "PwR5V"
-		(at 113.03 172.72 0)
+		(at 104.14 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7345,6 +7345,17 @@
 		)
 		(uuid "7b11ca45-8772-4091-b74b-cbfc4f1e6aa6")
 	)
+	(label "GND"
+		(at 163.83 177.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80ad9cd7-faca-464c-8060-f5ac5064a8ad")
+	)
 	(label "D2"
 		(at 46.99 62.23 180)
 		(fields_autoplaced yes)
@@ -7368,7 +7379,18 @@
 		(uuid "82b100b9-9890-4ab2-a1d9-d8f8ed0712ed")
 	)
 	(label "PwR5V"
-		(at 127 172.72 0)
+		(at 163.83 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bd7159f-9e40-4502-b52f-806773b8226b")
+	)
+	(label "PwR5V"
+		(at 118.11 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7401,7 +7423,7 @@
 		(uuid "955201b8-1e0e-423c-9d79-4d9f63f795a7")
 	)
 	(label "GND"
-		(at 113.03 177.8 270)
+		(at 104.14 177.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7434,7 +7456,7 @@
 		(uuid "a11fdc3b-8ae9-4666-a90c-255c9fc9a34f")
 	)
 	(label "GND"
-		(at 142.24 177.8 270)
+		(at 133.35 177.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7489,7 +7511,7 @@
 		(uuid "ae980fde-0326-45bd-a287-52026633418b")
 	)
 	(label "GND"
-		(at 156.21 177.8 270)
+		(at 147.32 177.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7621,7 +7643,7 @@
 		(uuid "d25a40b8-8321-4393-bf34-1273fee3ac9d")
 	)
 	(label "PwR5V"
-		(at 156.21 172.72 0)
+		(at 147.32 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7676,7 +7698,7 @@
 		(uuid "e3681173-5b2f-4dfb-9e44-6011b67b1cbe")
 	)
 	(label "GND"
-		(at 127 177.8 270)
+		(at 118.11 177.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7698,7 +7720,7 @@
 		(uuid "f5162ae9-e730-4062-8290-a035bda54ee0")
 	)
 	(label "PwR5V"
-		(at 142.24 172.72 0)
+		(at 133.35 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7710,7 +7732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 127 175.26 0)
+		(at 118.11 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7719,7 +7741,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ff2ecc-8e53-4cf1-b7d9-e3755ec91854")
 		(property "Reference" "C2"
-			(at 129.54 173.9962 0)
+			(at 120.65 173.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7750,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 129.54 176.5362 0)
+			(at 120.65 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +7759,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Caps:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 127 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7777,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 127 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 113.03 175.26 0)
+		(at 104.14 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8289,7 +8311,7 @@
 		(fields_autoplaced yes)
 		(uuid "81579b05-c7ca-411d-a0a6-2bafb3519e1b")
 		(property "Reference" "C1"
-			(at 115.57 173.9962 0)
+			(at 106.68 173.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8320,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 115.57 176.5362 0)
+			(at 106.68 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8329,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Caps:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 113.03 175.26 0)
+			(at 104.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 175.26 0)
+			(at 104.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8347,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 175.26 0)
+			(at 104.14 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8550,7 @@
 		(dnp no)
 		(uuid "b1d808c8-1e8e-4d96-8405-19cb9525a006")
 		(property "Reference" "U3"
-			(at 133.35 183.642 90)
+			(at 133.35 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8769,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 175.26 0)
+		(at 133.35 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8756,7 +8778,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a601e0-e0ff-4dfc-a457-6026aa6b7d56")
 		(property "Reference" "C3"
-			(at 144.78 173.9962 0)
+			(at 135.89 173.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8787,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 144.78 176.5362 0)
+			(at 135.89 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8796,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Caps:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 142.24 175.26 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 175.26 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8814,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 175.26 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,16 +9023,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 175.26 0)
+		(at 163.83 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed7ccbac-ffa4-4137-9b5c-76f243e2ac3b")
-		(property "Reference" "C4"
-			(at 158.75 173.9962 0)
+		(uuid "e254b4e9-c62d-4fcf-a6cc-724e4435489d")
+		(property "Reference" "C5"
+			(at 166.37 173.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9041,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 158.75 176.5362 0)
+			(at 166.37 176.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9050,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Caps:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 156.21 175.26 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +9059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 175.26 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9068,77 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 175.26 0)
+			(at 163.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997c6bf7-bae4-4dd0-9936-b15a2d1a0311")
+		)
+		(pin "2"
+			(uuid "b3817430-9dd2-4a24-b619-72b58f519295")
+		)
+		(instances
+			(project "MOS6566_Adapter"
+				(path "/a1e026d0-e5d1-47a2-a430-e4a7fc52c075"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed7ccbac-ffa4-4137-9b5c-76f243e2ac3b")
+		(property "Reference" "C4"
+			(at 149.86 173.9962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 149.86 176.5362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Caps:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
