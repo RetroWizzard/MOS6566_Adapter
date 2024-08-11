@@ -1,7 +1,7 @@
 In this repo you will find all the files neccesary to order your pcb.
 Please note that even though this design has been tested, there's still a risk of errors present in the design.
 
-Whatever you do, DO NOT UNDER ANY CIRCUMSTANCES close both jumbers at the same time!!!
+Whatever you do, <B>DO NOT UNDER ANY CIRCUMSTANCES close both jumbers at the same time!!!</B>
 Doing so will send 12V into the 5V power cirquit of your computer and damage it.
 
 By using this repository you agree that the author will not be held responsible for any damage to your hardware in any way.
